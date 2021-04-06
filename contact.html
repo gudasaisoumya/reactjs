@@ -1,16 +1,36 @@
 <!DOCTYPE html>
-<html>
+<!-- The web page is about myself-->
+<html><head>
+    <link rel="stylesheet" href="style.css">
     <style>
-   
-      h1 {
-          color: rgb(218, 49, 105);
-      }
-      
-.nav-right {
-  float: right;
+
+.bg {
+  position: relative;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cent1{
+    position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.top-right{
+    position: absolute;
+  bottom: 8px;
+  right: 16px;
 }
     </style>
-    <body>
+    </head>
+    <title>Contact Page</title>
+    <body bgcolor="black">
         <div class="navbar">
             <a href="home.html"> <b>HOME</b></a>
             <a href="about.html"> <b>ABOUT</b> </a> 
@@ -19,18 +39,36 @@
         <div class="nav-right">
             <a href="contact.html"><b>CONTACT ME</b></a>
         </div>
-        <h1 >I AM SAISOUMYA <BR></h1>
-        <h1>MY FATHER WORKS AS DIVISIONAL MANAGER IN NATIONAL INSURANCE <BR> </h1>
-        <h1>MY MOTHER IS A HOUSEWIFE <BR> </h1>
-       <h1> I WAS BORN AND BOUGHTUP IN NELLORE </h1><BR><BR>
-    <B><p style="color: brown;">MY ADDRESS IS</p></B>
-       <b><address style="color: green;font-size: large;">
-        FLAT.NO:304,<br>
-        MAYURI MANSIONS,<br>
-        CHANDRAMOULI NAGAR,<br>
-        GUNTUR.
-    </address>  </b>  <BR>
-   <B> <P STYLE="color: crimson;">MY CONTACT NUMBER IS +91-9490907757</P> </B>
-    
+        </div>
+        <div class="bg">
+            <img src="cont.jpg" style="width: 100%;height: 80%;">
+            <div class="centered">Get In Touch </div>
+            <div class="cent1">
+                <a href="https://forms.gle/CiQ9cbS1vAYDUsgw6">
+                    <button>Click here!</button>
+                   </a>
+            </div>
+            <div class="top-right">Contact - +91-9490907757</div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <a href="https://www.linkedin.com/in/sai-soumya-guda-1608611a6/"><img src="linked.jpg" style="width:42px;height:42px;"></a>
+            </div>
+            <div class="column">
+                <a href="https://github.com/gudasaisoumya"><img src="git.png" style="width: 42px;height: 42px;"></a>
+            </div>
+            <div class="column">
+                <a href="mailto:gsaisoumya10@msitprogram.net"> <img src="mail.png" style="width: 42px;height: 42px;"> </a>
+            </div>
+            <div class="column">
+                <a href=" https://www.hackerrank.com/gsaisoumya10"> <img src="hack.png" style="width: 42px;height: 42px;"> </a>
+            </div>
+          </div>
+      
+        
+           <!-- <p style="color: aliceblue;">+91-9490907757 
+            &nbsp;&nbsp;<img align="left" src="phone.jpg" style="width:42px;height: 42px;" /></p>-->
+           
+            
     </body>
 </html>

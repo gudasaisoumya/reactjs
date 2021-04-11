@@ -3,8 +3,13 @@
     <head>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
       <style>
-      .right {
+        body{
+          background-color: black;
+        }
+      .down {
         
     width: 900px;
     height: 180px;
@@ -16,45 +21,64 @@
   p{
     position: absolute;
     left: 50px;
-    padding-left: 15%;
-    font-size: x-large;
+    padding-left: 20%;
+    font-size: large;
     text-align: center;
     color: rgb(243, 235, 235);
   }
   h1{
-    padding-left: 50%;
+    font-size: x-large;
+    padding-left: 70%;
   }
-  .right > h4{
+  .down > h4{
+    font-size: medium;
     padding-top: 20%;
-    padding-left: 50%;
+    padding-left: 70%;
     scroll-padding-bottom: 0;
 
   }
   
   img {
-  padding-top: 10px;
-  padding-left: 150px;
-  height: 500px;
-  width: 1200px;
+  padding-top: 15px;
+  padding-left: 95px;
+  height: 600px;
+  width: 1400px;
+  }
+  .bg-dark{
+    background-color:black;
   }
  
 </style></head>
     <title>Myself</title>
     <body bgcolor="black"> 
-        <div class="navbar">
-            <a href="home.html"><i class="fa fa-fw fa-home">&nbsp;HOME</i></a>
-            <a href="extra.html" target="_blank">
-            <b>ABOUT</b></a> 
-            <a href="project.html" target="_blank"><i class="fa fa-file">&nbsp;PROJECTS</i></a> 
-            <a href="quali.html" target="_blank"><i class="fa fa-book">&nbsp;QUALIFICATION</i> </a>
-        <div class="nav-right">
-            <a href="ex.html" target="_blank"><i class="fa fa-fw fa-envelope">&nbsp;CONTACT</a>
+      <nav class="navbar navbar-expand-sm navbar-dark pt-0 pb-0">
+        <a class="navbar-brand" href="#"><b>HOME</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="extra.html" target="_blank"><b>ABOUT</b> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="project.html"><b>PROJECTS</b></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="quali.html"><b>QUALIFICATION</b></a>
+            </li>
+          </ul>
+          <span class="nav-item">
+            <li class="nav-item">
+              <a class="nav-link" href="ex.html"><b>CONTACT</b></a>
+            </li>
+          </span>
         </div>
-        </div>
+      </nav>
         <div class="middle">
             <img src="port.jpg">
         </div>
-        <div class="right">
+        <div class="down">
                 <h1 style="color: azure; text-align: center;" > Hey!! I am SaiSoumya &#128516</h1> <br>
                 <p style="color: azure; text-align: center;"> I am B.Tech Graduate and currently pursuing Masters in Information
                     Technology (MSIT) from JNTUH.
@@ -63,3 +87,7 @@
         </div>
       </body>
 </html>
+
+
+
+

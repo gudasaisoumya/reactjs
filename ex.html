@@ -2,11 +2,12 @@
 <!-- The web page is about myself-->
 <html><head>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
     <style>
 
-.bg {
+.bg1 {
+    padding-top: 0.5%;
   position: relative;
   text-align: center;
   font-size: xx-large;
@@ -35,32 +36,48 @@
     justify-content: center;
     
 }
-body{
+body,.bg{
+    background-color: black;
+}
+.breadcrumb{
     background-color: black;
 }
 
 </style> </head>
     <title>Contact Page</title>
     <body>
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="home.html"><b>HOME</b></a></li>
-                    <li><a href="extra.html"><b>ABOUT</b></a></li>
-                    <li><a href="project.html" target="_blank"><b>PROJECTS</b></a></li>
-                    <li><a href="quali.html" target="_blank"><b>QUALIFICATION</b> </a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="ex.html" target="_blank"><b>CONTACT</b></a>
+        
+        <nav class="navbar navbar-expand-sm navbar-dark pt-0 pb-0">
+            <a class="navbar-brand" href="home.html"><b>HOME</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="extra.html"><b>ABOUT</b> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="project.html"><b>PROJECTS</b></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="quali.html"><b>QUALIFICATION</b></a>
+                </li>
+              </ul>
+              <span class="nav-item">
+                <li class="nav-item">
+                  <a class="nav-link" href="ex.html"><b>CONTACT</b></a>
+                </li>
+              </span>
             </div>
-        </nav>
+          </nav>
         
         
-        <div class="bg">
+        <div class="bg1">
             <img src="cont.jpg" style="width: 100%;height: 90%;">
             <div class="centered">To Get In Touch </div>
             <div class="cent1">
-                <a href="https://forms.gle/CiQ9cbS1vAYDUsgw6">
+                <a href="form.html" target="_blank">
                     <button><b>Click here!</b></button>
                    </a>
             </div>

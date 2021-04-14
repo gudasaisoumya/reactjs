@@ -13264,6 +13264,55 @@
             "keyStrokeTimeStamp": "Fri Apr 09 2021 16:16:32",
             "keyStrokeInfo": "9",
             "position": "14,12"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 12 2021 16:47:08",
+            "keyStrokeInfo": "\r\n      ",
+            "position": "3,11"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Apr 12 2021 16:47:08",
+            "keyStrokeInfo": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+            "position": "4,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 12 2021 16:50:04",
+            "keyStrokeInfo": "      ",
+            "position": "8,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Mon Apr 12 2021 16:50:05",
+            "keyStrokeInfo": "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css\">\r\n  <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>\r\n  <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js\"></script>",
+            "position": "8,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Mon Apr 12 2021 16:50:45",
+            "keyStrokeInfo": "",
+            "position": "8,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 12 2021 16:50:46",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 12 2021 16:50:46",
+            "keyStrokeInfo": "",
+            "position": "4,7"
         }
     ],
     "extra": [
@@ -65857,6 +65906,34 @@
             "keyStrokeTimeStamp": "Sun Apr 11 2021 16:59:08",
             "keyStrokeInfo": "5",
             "position": "34,18"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Apr 12 2021 16:37:53",
+            "keyStrokeInfo": "\r\n            ",
+            "position": "83,19"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Apr 12 2021 16:37:57",
+            "keyStrokeInfo": "",
+            "position": "87,17"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 71,
+            "keyStrokeTimeStamp": "Mon Apr 12 2021 16:37:58",
+            "keyStrokeInfo": " <form class=\"form-horizontal\">\r\n        <div class=\"form-group\">\r\n            <label class=\"control-label col-sm-2\" for=\"usr\">First Name:</label>\r\n            <div class=\"col-sm-10\">\r\n              <input type=\"text\" class=\"form-control\" id=\"usr\">\r\n            </div></div>\r\n            <div class=\"form-group\">\r\n                <label class=\"control-label col-sm-2\" for=\"usr\">Last Name:</label>\r\n                <div class=\"col-sm-10\">\r\n                  <input type=\"text\" class=\"form-control\" id=\"usr\">\r\n                </div></div>\r\n             <div class=\"form-group\">\r\n        <label class=\"control-label col-sm-2\" for=\"email\">Email:</label>\r\n        <div class=\"col-sm-10\">\r\n          <input type=\"email\" class=\"form-control\" id=\"email\" placeholder=\"Enter email\" name=\"email\">\r\n        </div>\r\n      </div>\r\n      \r\n      <div class=\"form-group\">\r\n        <label class=\"control-label col-sm-2\" for=\"pwd\">Password:</label>\r\n        <div class=\"col-sm-10\">          \r\n          <input type=\"password\" class=\"form-control\" id=\"pwd\" placeholder=\"Enter password\" name=\"pwd\">\r\n        </div>\r\n      </div>\r\n      <div class=\"form-group\">        \r\n        <div class=\"col-sm-offset-2 col-sm-10\">\r\n          <div class=\"form-check form-check-inline\">\r\n            <input class=\"form-check-input\" type=\"radio\" name=\"inlineRadioOptions\" id=\"inlineRadio1\" value=\"option1\">\r\n            <label class=\"form-check-label\" for=\"inlineRadio1\">Feedback</label>\r\n          </div>\r\n          <div class=\"form-check form-check-inline\">\r\n            <input class=\"form-check-input\" type=\"radio\" name=\"inlineRadioOptions\" id=\"inlineRadio2\" value=\"option2\">\r\n            <label class=\"form-check-label\" for=\"inlineRadio2\">Suggestion</label>\r\n          </div>\r\n          <div class=\"form-check form-check-inline\">\r\n            <input class=\"form-check-input\" type=\"radio\" name=\"inlineRadioOptions\" id=\"inlineRadio3\" value=\"option3\">\r\n            <label class=\"form-check-label\" for=\"inlineRadio3\">Hire me</label>\r\n          </div>\r\n        </div>\r\n      </div>\r\n  <!-- Button to Open the Modal -->\r\n  <button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#myModal\">\r\n    Submit\r\n  </button>\r\n\r\n  <!-- The Modal -->\r\n  <div class=\"modal\" id=\"myModal\">\r\n    <div class=\"modal-dialog\">\r\n      <div class=\"modal-content\">\r\n      \r\n        <!-- Modal Header -->\r\n        <div class=\"modal-header\">\r\n          <h4 class=\"modal-title\">Do you want to submit the form?</h4>\r\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\r\n        </div>\r\n        \r\n        <!-- Modal body -->\r\n        <div class=\"modal-body\">\r\n          If yes click on \"Save changes\" or else click on \"close\"\r\n        </div>\r\n        \r\n        <!-- Modal footer -->\r\n        <div class=\"modal-footer\">\r\n          <button type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\">Save Changes</button>\r\n          <button type=\"button\" class=\"btn btn-danger\" data-dismiss=\"modal\">Close</button>\r\n        </div>\r\n        \r\n      </div>\r\n    </div>\r\n  </div>\r\n  </form>",
+            "position": "88,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Apr 12 2021 16:37:58",
+            "keyStrokeInfo": "        ",
+            "position": "158,1"
         }
     ],
     "pex.html": [

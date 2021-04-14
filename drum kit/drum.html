@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <title>The Drum Kit</title>
+  <link rel="stylesheet" href="index.css">
+  <style>
+      .middle{
+         padding-left: 15%;
+         margin-top: 0%;
+         padding-top:0;
+      }
+      
+      .main{
+          display: flex;
+          
+
+      }
+      
+  </style>
+  <script src="drum.js"></script>
+</head>
+  
+<body>
+  <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;"> Drum Kit for Music Lovers </h1>
+  <div class="main">
+  <div class="middle">
+    <a href="javascript:playSound('hithat');"><img src="hithat.jpg" width="150px" height="500px"></a>
+</div>
+    
+
+  <div class="all">
+    <a href="javascript:playSound('boom');"><img src="kick.png" style="padding-top: 20%;" ></a>
+    <a href="javascript:playSound('kick');"><img src="bass.jpg" width="100px" height="200px" ></a>
+    <a href="javascript:playSound('snare');"> <img src="snare drum.jpg" width="150px" height="200px" ></a>
+    <a href="javascript:playSound('openhat');"> <img src="toms.jpg" width="150px" height="200px" ></a>
+    <a href="javascript:playSound('ride');"> <img src="ride.jpg" width="150px" height="450px" ></a>
+  </div>
+  </div>
+  <audio id="hithat"  src="hithat.mp3" preload="auto"></audio>
+  <audio id="ride" src="ride.wav" preload="auto"></audio>
+  <audio id="kick" src="kick.wav" preload="auto"></audio>
+  <audio id="openhat" src="openhat.wav" preload="auto"></audio>
+  <audio id="snare" src="snare.wav" preload="auto"></audio>
+  <audio id="boom" src="boom.wav" preload="auto"></audio>
+  <script src="drumKit.js"></script> 
+</body>
+  
+</html>

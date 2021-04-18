@@ -1,6 +1,5 @@
 [
     {
-      id: 1,
       question: "What is the full form of RAM ?",
       answer: "Random Access Memory",
       options: [

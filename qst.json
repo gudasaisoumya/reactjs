@@ -10,7 +10,6 @@
       ]
     },
     {
-      id: 2,
       question: "What is the full form of CPU?",
       answer: "Central Processing Unit",
       options: [
@@ -21,7 +20,6 @@
       ]
     },
     {
-      id: 3,
       question: "What is the full form of E-mail",
       answer: "Electronic Mail",
       options: [
